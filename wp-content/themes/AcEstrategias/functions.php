@@ -26,3 +26,6 @@ foreach ($sage_includes as $file) {
   require_once $filepath;
 }
 unset($file, $filepath);
+
+
+require_once get_template_directory() . '/wp-bootstrap-navwalker.php';
