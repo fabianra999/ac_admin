@@ -20,8 +20,8 @@ use Roots\Sage\Wrapper;
     ?>
     <div class="wrap" role="document">
       <div class="content">
-        <main class="main">
           <?php include Wrapper\template_path(); ?>
+          <main class="main">
         </main><!-- /.main -->
         <?php if (Setup\display_sidebar()) : ?>
         <aside class="sidebar">

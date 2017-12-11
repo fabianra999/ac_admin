@@ -1,8 +1,12 @@
 @import "common/variables";
+@import "common/fonts";
+@import "common/mixin";
 
 // Automatically injected Bower dependencies via wiredep (never manually edit this block)
 // bower:scss
 @import "../../bower_components/bootstrap/scss/bootstrap.scss";
+@import "../../bower_components/font-awesome/scss/font-awesome.scss";
+@import "../../bower_components/slick-carousel/slick/slick.scss";
 // endbower
 
 @import "common/global";
@@ -12,6 +16,7 @@
 @import "components/grid";
 @import "components/wp-classes";
 @import "layouts/header";
+@import "layouts/nav";
 @import "layouts/sidebar";
 @import "layouts/footer";
 @import "layouts/pages";
@@ -22,4 +27,19 @@
  Home
 */
 @import "layouts/home/galeria-home";
+@import "layouts/home/home";
 
+/*
+ Quienes Somos
+*/
+@import "layouts/somos/somos";
+
+/*
+ servicios
+*/
+@import "layouts/servicios/servicios";
+
+/*
+ contacto
+*/
+@import "layouts/contacto/contacto";

@@ -1,0 +1,73 @@
+.layout__quienesSomos {
+
+  .items_quienes_somos {
+    margin-top: 1.5rem;
+    [ class^= "col-12" ] {
+      position: relative;
+    }
+    .item_quienes_somos {
+      background-color: $blanco;
+      padding: 1rem;
+      border-radius: 10px;
+      .titulo_item_quienes_somos {
+        h2 {
+          text-align: center;
+          font-size: 40px;
+          color: #484D56;
+          font-family: sans-serif;
+        }
+      }
+
+      .descripcion_item_quienes_somos {
+        text-align: justify;
+        font-size: 23px;
+        color: #8892A1;
+        p {
+
+        }
+      }
+
+      .quienesSomos__img {
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+
+    }
+  }
+
+  .professional__profile {
+    .container {
+      background-color: $blanco;
+      padding: 1rem;
+      border-radius: 10px;
+    }
+    .perfil_profesional_nombre {
+      h1 {
+        text-align: center;
+        font-size: 40px;
+        color: #484D56;
+        font-family: sans-serif;
+      }
+    }
+    .imagen_item_quienes_somos {
+      text-align: center;
+      img {
+        width: 100%;
+        max-width: 115px;
+        height: auto;
+      }
+    }
+    .perfil_profesional_descripcion{
+      padding: 1rem 1.5rem;
+      text-align: justify;
+      font-size: 23px;
+      color: #8892A1;
+      p{
+
+      }
+    }
+  }
+
+}

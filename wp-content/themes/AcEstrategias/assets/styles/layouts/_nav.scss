@@ -1,0 +1,41 @@
+/**
+ * NavBar
+ * Primari
+ */
+
+.navbar {
+  padding: .5rem 1rem;
+  background-color: $azul_2;
+
+  .navbar-brand {
+    display: none;
+  }
+
+  .navbar-collapse {
+    .menu-navbar-container {
+      //width: 100%;
+      ul {
+        // width: 100%;
+        // display: inline-block;
+        li {
+          display: inline-block;
+          list-style: none;
+          margin-left: 5rem;
+          a {
+            padding-right: .5rem;
+            padding-left: .5rem;
+            color: rgba(255, 255, 255, .5);
+            text-decoration: none;
+            font-family: Serif;
+            font-size: 20px;
+          }
+          &.active {
+            a {
+              color: $blanco;
+            }
+          }
+        }
+      }
+    }
+  }
+}

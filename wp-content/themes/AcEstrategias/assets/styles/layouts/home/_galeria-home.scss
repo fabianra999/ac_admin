@@ -1,7 +1,17 @@
-.galeria__home{
-  .carousel-item{
-    img{
-      width: 100%;
+body.home {
+  .home__gallery {
+    .carousel-item {
+      img {
+        width: 100%;
+        height: auto;
+        max-height: 400px;
+      }
     }
+  }
+
+  //
+  .section__home {
+    margin-bottom: 1rem;
+    background: $blanco;
   }
 }

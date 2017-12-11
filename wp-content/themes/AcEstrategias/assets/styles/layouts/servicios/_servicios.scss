@@ -1,0 +1,51 @@
+/**
+  * servicios
+ */
+
+.layout__servicios {
+  padding: 1.5rem 0 1rem;
+  background-color: #285e88;
+  .title__layout__servicios {
+    margin: 1rem 0 2.5rem;
+    h1 {
+      color: #fff;
+      font-weight: 700;
+      line-height: 1.1em;
+      font-size: 30px;
+    }
+  }
+
+  .servicios_items_titulo {
+    h2 {
+      color: $blanco;
+      font-size: 18px;
+      line-height: 1.3em;
+    }
+  }
+
+  .servicios_items_descripcion {
+    p {
+      color: $blanco;
+      text-align: justify;
+      font-size: 14px;
+    }
+  }
+
+  .servicios_items_ver_mas_link,
+  .servicios_items_consulta_link {
+    display: inline-block;
+    a {
+
+      > div {
+        display: inline-block;
+        padding: 5px 10px;
+        border-color: #01549b;
+        border-radius: 4px;
+        background: url(http://static.parastorage.com/services/skins/2.1229.72/images/wysiwyg/core/themes/base/shiny2button_bg.png) center top repeat-x #387fbb;
+        font-size: 1rem;
+        color: #fff;
+      }
+    }
+  }
+
+}

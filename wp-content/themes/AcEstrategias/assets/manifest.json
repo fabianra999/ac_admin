@@ -2,7 +2,7 @@
   "dependencies": {
     "main.js": {
       "files": [
-        "scripts/main.js"
+        "scripts/layout/**/*.js"
       ],
       "main": true
     },
@@ -19,9 +19,12 @@
     },
     "jquery.js": {
       "bower": ["jquery"]
+    },
+    "slick.js": {
+      "bower": ["slick-carousel"]
     }
   },
   "config": {
-    "devUrl": "http://example.dev"
+    "devUrl": "http://192.168.90.83:8888/ac_estrategias/"
   }
 }

@@ -18,10 +18,11 @@
     // All pages
     'common': {
       init: function() {
-        // JavaScript to be fired on all pages
+        // JavaScript para ser despedido en todas las páginas
+        //  test();
       },
       finalize: function() {
-        // JavaScript to be fired on all pages, after page specific JS is fired
+        // JavaScript se activará en todas las páginas, después de que se active el JS específico de la página
       }
     },
     // Home page

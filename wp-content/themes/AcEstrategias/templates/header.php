@@ -1,4 +1,10 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<header>
+    <a href="#">
+        <h1><span>AC</span> Estrategias Contables y Financieras </h1>
+    </a>
+</header>
+
+<nav class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -13,7 +19,7 @@
                 'menu' => 'top_menu',
                 'depth' => 2,
                 //'container' => 'div',
-                'menu_class' => 'navbar-nav mr-auto',
+                'menu_class' => 'nav justify-content-end',
                 'fallback_cb' => 'WP_Bootstrap_Navwalker::fallback',
                 'walker' => new wp_bootstrap_navwalker()
             ]);
@@ -23,7 +29,7 @@
 </nav>
 
 
-<header class="banner navbar navbar-default navbar-static-top" role="banner">
-</header>
+<!--<header class="banner navbar navbar-default navbar-static-top" role="banner">
+</header>-->
 
 

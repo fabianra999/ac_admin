@@ -1,3 +1,33 @@
 // Grid settings
 $main-sm-columns:       12;
 $sidebar-sm-columns:    4;
+
+/* Varables Colores
+===================================================*/
+
+// Web
+$azul_1: #426489;
+$azul_2: #0e1b33;
+$azul_3: #1c3766;
+
+// Primarios
+$blanco:     #ffffff;
+$negro:      #000000;
+$gris:       rgb(72, 77, 86);
+$azul:       #03a9f4;
+$amarillo:   #ffeb3b;
+
+// Redes
+$whatsapp:  #65a445;
+$facebook:  #253a81;
+$instagram: #38619f;
+$mail:      #2e8b9b;
+
+/* Path Sass
+===================================================*/
+$path-fonts: '../fonts/';
+$path-img: '../images/';
+
+/*=== font-awesome ===*/
+// Impotar css min
+//$fa-font-path:        "../fonts" !default;

@@ -1,0 +1,48 @@
+/**
+ * Home
+ */
+
+.section__home {
+  margin-top: 1rem;
+  padding: 1.5rem 1rem;
+
+  // Lista de productos
+  .home__products {
+    .items_home {
+      .item_home {
+        .warp__titulo {
+          h1 {
+            font-size: 1.5rem;
+            color: $gris;
+            font-family: serif;
+          }
+        }
+        .warp__descripcion{
+          p{
+            margin: 1rem 0;
+            color: $gris;
+            font-size: .75rem;
+            text-align: justify;
+          }
+        }
+        .warp__imagen{
+          img{
+            width: 100%;
+            height: auto;
+          }
+        }
+        .warp__boton{
+          a h2{
+            display: inline-block;
+            padding: 5px 10px;
+            border-color: #01549b;
+            border-radius: 4px;
+            background-color: #025aa5;
+            font-size: 1rem;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
