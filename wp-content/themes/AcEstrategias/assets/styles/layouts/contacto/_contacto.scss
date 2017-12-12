@@ -1,0 +1,57 @@
+.layout__contacto {
+  .title__layout__contacto {
+    margin: 1rem 0 2.5rem;
+    h1 {
+      color: $blanco;
+      font-weight: 700;
+      line-height: 1.1em;
+      font-size: 30px;
+    }
+  }
+
+  .warp__contacto {
+    background: $blanco;
+    padding: 2rem 2rem 1rem;
+    border-radius: 15px;
+    .contactInformation {
+      .title {
+        line-height: 1.3em;
+        color: #484D56;
+        letter-spacing: normal;
+        font-size: 22px;
+        font-family: Serif;
+      }
+      .info {
+        color: #8892A1;
+        line-height: normal;
+        letter-spacing: normal;
+        font-size: 14px;
+      }
+    }
+
+    .form__contancto{
+      input[type="email"],
+      input[type="text"],
+      textarea{
+        width: 100%;
+        background-color: #ecf0f1;
+        color: #8892A1;
+        margin: 0 0 5px;
+        padding: 7px;
+        border: none;
+        font-size: 12px;
+      }
+
+      input[type="submit"]{
+        padding: .5rem 1.5rem;
+        transition: border-color .4s ease 0s,background-color .4s ease 0s;
+        background: url(http://static.parastorage.com/services/skins/2.1229.72/images/wysiwyg/core/themes/base/shiny2button_bg.png) center top repeat-x #387fbb;
+        border: 0 solid #fff;
+        align-items: center;
+        font-size: .75rem;
+        color: $blanco;
+        float: right;
+      }
+    }
+  }
+}
